@@ -24,7 +24,8 @@ def count_tokens_in_pdf(pdf_path, model_name="gpt-4"):
     
     return num_tokens
 
-pdf_file_path = "../CFA/CFA1/dataset/CFA1-mass.pdf"
+#pdf_file_path = "../CFA/CFA1/dataset/CFA1-mass.pdf"
+pdf_file_path = "../CFA/CPA/CPA-REG.pdf"
 
 #prints tokens
 token_count = count_tokens_in_pdf(pdf_file_path)

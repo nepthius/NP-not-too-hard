@@ -1,0 +1,29 @@
+Main Menu
+CDM Structured Products Working Group
+Version: 5.13.0
+On this page
+CDM Structured Products Working Group
+Overview
+​
+This working group aims to accelerate the build and support of structured products in the Common Domain Model.
+Meetings
+​
+Join us Monthly on the Second Tuesday 10AM EST (3PM GMT).
+ Email 
+help@finos.org
+ to be added to the meeting invites directly, or find the meeting in the 
+FINOS Community Calendar
+. 
+Subscribe
+​
+To subscribe to the 
+Structured Products WG mailing list
+ and stay updated on meetings and agenda, please send an email to 
+structured-products+subscribe@lists.finos.org
+. After sending the email, you will receive a confirmation message. Reply to confirm your subscription.
+To view meeting notes and agendas, view our 
+current
+ and 
+past
+ GitHub Meeting Issues.
+Edit this page

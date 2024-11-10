@@ -1,4 +1,3 @@
-import json
 import csv
 
 def parsing(file_path):

@@ -1,0 +1,36 @@
+Main Menu
+CDM Technology Architecture Working Group
+Version: 5.13.0
+On this page
+CDM Technology Architecture Working Group
+Overview
+​
+The CDM Technology Architecture Working Group focuses on aligning the architecture, tooling services, infrastructure, development practices, and deployment of the CDM with both existing and future technologies.
+Responsibilities
+​
+Defining and working on technical aspects and architecture-related items, such as language distributions, packaging, libraries, serialization, reference data architecture, and integration with other data standards.
+Collaborating closely with the CDM Contribution Review Working Group. 
+Meeting monthly, with the flexibility to form sub-groups as necessary to address specific technical challenges or opportunities.
+Meetings
+​
+Join us every 2nd Thursday of Every Month, 9AM EST (2PM GMT).
+ Email 
+help@finos.org
+ to be added to the meeting invites directly, or find the meeting in the 
+FINOS Community Calendar
+. 
+2024 Roadmap
+​
+Subscribe
+​
+To subscribe to the 
+TAWG mailing list
+ and stay updated on meetings and agenda, please send an email to 
+cdm-technology-architecture+subscribe@lists.finos.org
+. After sending the email, you will receive a confirmation message. Reply to confirm your subscription.
+To view meeting notes and agendas, view our 
+current
+ and 
+past
+ GitHub Meeting Issues.
+Edit this page

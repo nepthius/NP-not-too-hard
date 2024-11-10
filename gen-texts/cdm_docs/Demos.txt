@@ -1,0 +1,10 @@
+Main Menu
+Demos
+Version: 5.13.0
+Demos
+Watch the demo from otc Digital entitled "Integrated digital assets marketplace with full lifecycle and automation using CDM"
+ 
+Marc Gratacos (Managing Partner at TradeHeader) delivered an amazing walkthrough on the Common Domain Model (CDM). Highly recommend to anyone who wants to start digging into CDM
+Watch the ISDA DRR CDM Training Sessions 27 March 2024
+How to Get Started with CDM Meetup April 2024
+Edit this page

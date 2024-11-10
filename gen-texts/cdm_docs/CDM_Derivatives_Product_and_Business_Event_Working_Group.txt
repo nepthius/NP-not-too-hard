@@ -1,0 +1,31 @@
+Main Menu
+CDM Derivatives Product and Business Event Working Group
+Version: 5.13.0
+On this page
+CDM Derivatives Product and Business Event Working Group
+Overview
+​
+Focused on swaps (IR, credit, equity, commodity, etc.), options, FX, post-trade events (increases, novations, exercises, etc.)
+Meetings
+​
+Join us on the Second and Last Wednesday at 11:30 AM EST (4:30PM GMT).
+ Email 
+help@finos.org
+ to be added to the meeting invites directly, or find the meeting in the 
+FINOS Community Calendar
+. 
+2024 Roadmap
+​
+Subscribe
+​
+To subscribe to the 
+DPBE mailing list
+ and stay updated on meetings and agenda, please send an email to 
+cdm-dpbe-wg+subscribe@lists.finos.org
+. After sending the email, you will receive a confirmation message. Reply to confirm your subscription.
+To view meeting notes and agendas, view our 
+current
+ and 
+past
+ GitHub Meeting Issues.
+Edit this page

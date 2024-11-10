@@ -1,5 +1,5 @@
 import csv
-
+#IMPORTANT, WE SHOUDL ALSO USE THIS FOR SEC CLEANING
 def parse_question_answer_file(file_path):
     questions = []
     answers = []

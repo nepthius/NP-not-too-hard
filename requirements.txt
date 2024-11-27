@@ -1,2 +1,6 @@
 tiktoken
 pymupdf
+langchain
+matplotlib
+numpy
+huggingface

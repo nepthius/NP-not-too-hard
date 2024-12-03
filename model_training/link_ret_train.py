@@ -1,4 +1,3 @@
-# train_generated_question_set.py
 import pandas as pd
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, Trainer, TrainingArguments, DataCollatorForSeq2Seq
 from datasets import Dataset

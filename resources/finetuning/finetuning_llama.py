@@ -44,3 +44,53 @@ def preprocess_data(examples):
         "attention_mask": tokenizer(input_data, truncation=True, padding="max_length", max_length=512)["attention_mask"],
         "labels": tokenizer(sample_data["expected_output"], truncation=True, padding="max_length", max_length=512)["input_ids"]
     }
+
+#load and split up the data
+dataset = load_dataset("json", data_files=DATASET_PATH)
+dataset = dataset.map(preprocess_data, batched=True)
+data = DatasetDict({
+    "train": dataset["train"],
+    "validation": dataset["validation"]
+})
+
+#basic arg stuff
+training_args = TrainingArguments(
+    output_dir=OUTPUT_DIR,
+    per_device_train_batch_size=4,
+    per_device_eval_batch_size=4,
+    gradient_accumulation_steps=16,
+    evaluation_strategy="epoch",
+    save_strategy="epoch",
+    num_train_epochs=3,
+    learning_rate=5e-5,
+    weight_decay=0.01,
+    logging_dir=f"{OUTPUT_DIR}/logs",
+    logging_steps=10,
+    save_total_limit=2,
+    fp16=True,
+    load_best_model_at_end=True,
+    metric_for_best_model="loss",
+    greater_is_better=False
+)
+trainer = Trainer(
+    model=model,
+    args=training_args,
+    train_dataset=data["train"],
+    eval_dataset=data["validation"],
+    tokenizer=tokenizer,
+)
+
+trainer.train()
+trainer.save_model(OUTPUT_DIR)
+tokenizer.save_pretrained(OUTPUT_DIR)
+eval_results = trainer.evaluate()
+print("Evaluation Results.....", eval_results)
+
+#predict
+def generate_predictions(input_text):
+    """Generate predictions for given input text."""
+    inputs = tokenizer(input_text, return_tensors="pt").to("cuda")
+    outputs = model.generate(**inputs, max_length=512)
+    return tokenizer.decode(outputs[0], skip_special_tokens=True)
+sample_input = "Expand the following acronym into its full form: SEC. Answer:"
+print(generate_predictions(sample_input))
